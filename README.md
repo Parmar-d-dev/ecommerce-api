@@ -1,7 +1,7 @@
 #  E-Commerce Product CRUD API (Laravel )
 
-##  Project Overview
-This project is a **RESTful CRUD API** built using **Laravel 11** for managing products in an E-Commerce shopping website.
+<!-- Project Overview -->
+This project is a **RESTful CRUD API** built using Laravel  for managing products in an E-Commerce shopping website.
 
 The API allows users to:
 - Create products
@@ -14,7 +14,7 @@ All data is stored in a **MySQL database** and the project follows Laravel best 
 
 ---
 
-##  Tech Stack
+<!--  Tech Stack -->
 - PHP 8.2+
 - Laravel 12
 - MySQL
@@ -23,7 +23,7 @@ All data is stored in a **MySQL database** and the project follows Laravel best 
 
 ---
 
-## Product Fields
+<!-- Product Fields -->
 The `products` table contains the following fields:
 
 | Field | Type |
@@ -38,6 +38,14 @@ The `products` table contains the following fields:
 | updated_at | timestamp |
 
 ---
+<!-- API Route -->
+GET /api/products
+POST /api/products 
+GET /api/products/{id} 
+PUT /api/products/{id} 
+DELETE /api/products/{id}
+
+Content-Type: application/json
 
 ##  Installation & Setup
 
